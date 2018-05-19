@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author             = { "Vincent" => "keepexcelsior@gmail.com" }
   s.source = { :path => '.' }
-  s.source_files = "VTImageFilterPicker", "VTImageFilterPicker/**/*.{h,m,swift}"
+  s.source_files = "VTImageFilterPicker/**/*.{h,m,swift}"
   s.homepage = "https://www.linkedin.com/in/lin-vincent-99659715b/"
 
 end
