@@ -13,8 +13,8 @@ Pod::Spec.new do |s|
   s.description  = "Just likes Instagram upload image view, easy to use and fully customization."
   s.license      = "MIT"
   s.author       = { "Vincent" => "keepexcelsior@gmail.com" }
-  s.source = { :git => 'https://github.com/vincentLin113/VTImageFilterPicker.git', :tag => '1.0.1' }
-  s.source_files = 'Source/*.{swift,m,h}'
+  s.source = { :git => 'https://github.com/vincentLin113/VTImageFilterPicker.git', :tag => '1.0.0.1' }
+  s.source_files = 'Source/*.swift, Source/CustomUI/*.swift, Source/Extension/*.swift'
   s.homepage = 'https://github.com/vincentLin113/VTImageFilterPicker'
   s.ios.deployment_target = "9.0"
 
