@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = { "Vincent" => "keepexcelsior@gmail.com" }
   s.source = { :git => 'https://github.com/vincentLin113/VTImageFilterPicker.git', :tag => '1.0.0.4' }
-  s.source_files = 'Sources/**/*.{swift,metal,h,m}'
+  s.source_files = 'Source/**/*.{swift,metal,h,m}'
   s.homepage = 'https://github.com/vincentLin113/VTImageFilterPicker'
   s.ios.deployment_target = "9.0"
 
