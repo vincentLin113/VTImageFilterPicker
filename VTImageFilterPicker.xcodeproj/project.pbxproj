@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3487A4F920B0E0C400EFDE1D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 34C1415920B01FA400A794C3 /* Info.plist */; };
 		34C1416620B01FA400A794C3 /* VTImageFilterPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 34C1415820B01FA400A794C3 /* VTImageFilterPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		34C1417220B0204F00A794C3 /* VTFilterImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C1416F20B0204F00A794C3 /* VTFilterImageCell.swift */; };
 		34C1417320B0204F00A794C3 /* VTImageFilterPickerCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C1417020B0204F00A794C3 /* VTImageFilterPickerCustom.swift */; };
@@ -43,10 +44,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3487A4F820B0E02900EFDE1D /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				34C1415920B01FA400A794C3 /* Info.plist */,
+				34C1415820B01FA400A794C3 /* VTImageFilterPicker.h */,
+				34C1417120B0204F00A794C3 /* VTImageFilterPicker.swift */,
+				34C1416F20B0204F00A794C3 /* VTFilterImageCell.swift */,
+				34C1417020B0204F00A794C3 /* VTImageFilterPickerCustom.swift */,
+				34C1417820B0205A00A794C3 /* Extension */,
+				34C1417620B0205A00A794C3 /* CustomUI */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		34C1414B20B01FA400A794C3 = {
 			isa = PBXGroup;
 			children = (
-				34C1415720B01FA400A794C3 /* VTImageFilterPicker */,
+				3487A4F820B0E02900EFDE1D /* Source */,
 				34C1415620B01FA400A794C3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,20 +72,6 @@
 				34C1415520B01FA400A794C3 /* VTImageFilterPicker.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		34C1415720B01FA400A794C3 /* VTImageFilterPicker */ = {
-			isa = PBXGroup;
-			children = (
-				34C1417620B0205A00A794C3 /* CustomUI */,
-				34C1417820B0205A00A794C3 /* Extension */,
-				34C1416F20B0204F00A794C3 /* VTFilterImageCell.swift */,
-				34C1417120B0204F00A794C3 /* VTImageFilterPicker.swift */,
-				34C1417020B0204F00A794C3 /* VTImageFilterPickerCustom.swift */,
-				34C1415820B01FA400A794C3 /* VTImageFilterPicker.h */,
-				34C1415920B01FA400A794C3 /* Info.plist */,
-			);
-			path = VTImageFilterPicker;
 			sourceTree = "<group>";
 		};
 		34C1417620B0205A00A794C3 /* CustomUI */ = {
@@ -162,6 +163,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3487A4F920B0E0C400EFDE1D /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,7 +318,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = VTImageFilterPicker/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -343,7 +345,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = VTImageFilterPicker/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (

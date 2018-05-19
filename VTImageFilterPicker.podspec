@@ -9,18 +9,13 @@
 Pod::Spec.new do |s|
   s.name         = "VTImageFilterPicker"
   s.version      = "1.0.0"
-  s.summary      = "A beautifil and easy use image filter picker."
-
-  # This description is used to generate tags and improve search results.
-  #   * Think: What does it do? Why did you write it? What is the focus?
-  #   * Try to keep it short, snappy and to the point.
-  #   * Write the description between the DESC delimiters below.
-  #   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.summary      = "A beautiful and easy use image filter picker."
   s.description  = "Just likes Instagram upload image view, easy to use and fully customization."
   s.license      = "MIT"
   s.author             = { "Vincent" => "keepexcelsior@gmail.com" }
   s.source = { :git => 'https://github.com/vincentLin113/VTImageFilterPicker.git', :tag => '1.0.0' }
-  s.source_files = "VTImageFilterPicker/**/*.{h,m,swift}"
+  s.source_files = "Source/*.swift"
   s.homepage = "https://www.linkedin.com/in/lin-vincent-99659715b/"
+  s.ios.deployment_target = "9.0"
 
 end
