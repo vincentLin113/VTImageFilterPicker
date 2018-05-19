@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "VTImageFilterPicker"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "A beautiful and easy use image filter picker."
   s.description  = "Just likes Instagram upload image view, easy to use and fully customization."
   s.license      = "MIT"
