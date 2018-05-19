@@ -59,7 +59,7 @@ open class VTImageFilterPicker: UIViewController {
     public weak var delegate: VTImageFilterPickerDelegate?
     
     public var receiveImage: UIImage? = nil
-    private(set) var currentIndexOfAppliedFilter: Int = 0
+    fileprivate var currentIndexOfAppliedFilter: Int = 0
     
     fileprivate let filterNameList = [
         "No Filter",
