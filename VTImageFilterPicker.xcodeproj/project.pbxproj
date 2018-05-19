@@ -47,15 +47,23 @@
 		3487A4F820B0E02900EFDE1D /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				3487A4FC20B0EA0500EFDE1D /* Main */,
+				34C1417820B0205A00A794C3 /* Extension */,
+				34C1417620B0205A00A794C3 /* CustomUI */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		3487A4FC20B0EA0500EFDE1D /* Main */ = {
+			isa = PBXGroup;
+			children = (
 				34C1415920B01FA400A794C3 /* Info.plist */,
 				34C1415820B01FA400A794C3 /* VTImageFilterPicker.h */,
 				34C1417120B0204F00A794C3 /* VTImageFilterPicker.swift */,
 				34C1416F20B0204F00A794C3 /* VTFilterImageCell.swift */,
 				34C1417020B0204F00A794C3 /* VTImageFilterPickerCustom.swift */,
-				34C1417820B0205A00A794C3 /* Extension */,
-				34C1417620B0205A00A794C3 /* CustomUI */,
 			);
-			path = Source;
+			path = Main;
 			sourceTree = "<group>";
 		};
 		34C1414B20B01FA400A794C3 = {
