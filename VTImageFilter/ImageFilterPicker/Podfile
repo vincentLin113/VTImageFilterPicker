@@ -1,0 +1,9 @@
+platform :ios, '9.0'
+
+target 'ImageFilterPicker' do
+  use_frameworks!
+
+  pod 'VTImageFilterPicker', :path => '../'
+
+
+end
