@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3487A4F920B0E0C400EFDE1D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 34C1415920B01FA400A794C3 /* Info.plist */; };
+		34B5B95020B8CD5E0010D9C4 /* VTAssets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 34B5B94F20B8CD5E0010D9C4 /* VTAssets.bundle */; };
 		34C1416620B01FA400A794C3 /* VTImageFilterPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 34C1415820B01FA400A794C3 /* VTImageFilterPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		34C1417220B0204F00A794C3 /* VTFilterImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C1416F20B0204F00A794C3 /* VTFilterImageCell.swift */; };
 		34C1417320B0204F00A794C3 /* VTImageFilterPickerCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C1417020B0204F00A794C3 /* VTImageFilterPickerCustom.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		34B5B94F20B8CD5E0010D9C4 /* VTAssets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = VTAssets.bundle; sourceTree = "<group>"; };
 		34C1415520B01FA400A794C3 /* VTImageFilterPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VTImageFilterPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		34C1415820B01FA400A794C3 /* VTImageFilterPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VTImageFilterPicker.h; sourceTree = "<group>"; };
 		34C1415920B01FA400A794C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +49,7 @@
 		3487A4F820B0E02900EFDE1D /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				34B5B94F20B8CD5E0010D9C4 /* VTAssets.bundle */,
 				3487A4FC20B0EA0500EFDE1D /* Main */,
 				34C1417820B0205A00A794C3 /* Extension */,
 				34C1417620B0205A00A794C3 /* CustomUI */,
@@ -171,6 +174,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34B5B95020B8CD5E0010D9C4 /* VTAssets.bundle in Resources */,
 				3487A4F920B0E0C400EFDE1D /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,7 +342,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -364,7 +368,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.itworm.VTImageFilterPicker;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

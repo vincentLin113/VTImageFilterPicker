@@ -158,6 +158,11 @@ open class VTImageFilterPicker: UIViewController {
         self.receiveImage = image
         self.configure()
     }
+    
+    public convenience init() {
+        self.init(nibName: nil, bundle: nil)
+        self.configure()
+    }
 
 }
 
@@ -198,6 +203,7 @@ private extension VTImageFilterPicker {
         if let image = receiveImage {
             imageView.image = image
         } else {
+            receiveImage = VTImageFilterPickerCustom.Appearance.defaultImage
             imageView.image = VTImageFilterPickerCustom.Appearance.defaultImage
         }
         

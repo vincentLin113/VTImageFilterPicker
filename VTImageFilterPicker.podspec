@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "VTImageFilterPicker"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "A beautiful and easy use image filter picker."
   s.description  = "Just likes Instagram upload image view, easy to use and fully customization."
   s.license      = "MIT"
@@ -17,6 +17,6 @@ Pod::Spec.new do |s|
   s.source_files = 'Source/**/*.{swift,metal,h,m}'
   s.homepage = 'https://github.com/vincentLin113/VTImageFilterPicker'
   s.ios.deployment_target = "9.0"
-  s.swift_version = '4.1'
+  s.swift_version = '3.3'
 
 end

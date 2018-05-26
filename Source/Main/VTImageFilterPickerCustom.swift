@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 
+let bundle = Bundle(for: VTImageFilterPicker.self)
 
 public struct VTImageFilterPickerCustom {
     
@@ -18,7 +19,10 @@ public struct VTImageFilterPickerCustom {
         
         public static var rightBarButtonText: String = "Next"
         
-        public static var dismissButtonIcon: UIImage = #imageLiteral(resourceName: "close")
+        public static var dismissButtonIcon: UIImage = {
+                return UIImage(named: "VTAssets.bundle/images/back", in: bundle, compatibleWith: nil)
+                ?? UIImage()
+        }()
         
         public static var rightBarButtonTextColor: UIColor = UIColor(red: 0.0, green: 122.0 / 255.0, blue: 1.0, alpha: 1.0)
         
@@ -30,7 +34,11 @@ public struct VTImageFilterPickerCustom {
         
         public static var imageViewContentMode = UIViewContentMode.scaleAspectFill
         
-        public static var defaultImage: UIImage = UIImage(named: "VTDefaultImage") ?? UIImage()
+        public static var defaultImage: UIImage = {
+                return UIImage(named: "VTAssets.bundle/images/defaultImageVT.jpg", in: bundle, compatibleWith: nil)
+                    ?? UIImage()
+            
+        }()
         
         public static var displayStatusBar: Bool = false
         
