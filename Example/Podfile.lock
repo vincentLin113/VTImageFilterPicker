@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: 59643de518665cb9f999a05cdc7e648a06e7a9bc
+PODS:
+  - VTImageFilterPicker (1.0.4)
+
+DEPENDENCIES:
+  - VTImageFilterPicker
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - VTImageFilterPicker
+
+SPEC CHECKSUMS:
+  VTImageFilterPicker: cd55b3004b76213da98481afaca38e991f6deb54
+
+PODFILE CHECKSUM: fb7b09c2ad96413fa807b395adbc05397f2420e2
 
 COCOAPODS: 1.5.2

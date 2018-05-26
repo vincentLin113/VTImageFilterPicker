@@ -1,0 +1,6 @@
+module VTImageFilterPicker {
+  umbrella header "VTImageFilterPicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

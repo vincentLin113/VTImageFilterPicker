@@ -1,4 +1,6 @@
 
 target 'Example' do
+    
+    pod 'VTImageFilterPicker'
 
 end

@@ -7,56 +7,127 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		400D6F48F478D724333EB2F433CB61E2 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 853BB94042284CB4296D1239BE467FB0 /* Pods-Example-dummy.m */; };
-		6F8728B8C208D9F83BDA89F44E9D501F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		0A7F6F9AFD09D3F80874F0D00C5D8383 /* UIView+UnderLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88EA79029E5B46C2B35CD971E556D6B /* UIView+UnderLine.swift */; };
+		1079B3DB1167387C646A651905037DF2 /* VTImageFilterPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE4B15D9FAFDABB095AEB99C82EE83D /* VTImageFilterPicker-dummy.m */; };
+		24D0DC34DF1098853BEA4DD466FDD890 /* PaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA48CC2BA1F2D5BDB7A6F8A450B69A7 /* PaddingLabel.swift */; };
+		4374C63D9565E8A8CBBED4BF584FA355 /* VTImageFilterPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 09E64511F0EEC0F041579986DF208205 /* VTImageFilterPicker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		60F96B978C3F09ABCCF520C603CFCAED /* VTImageFilterPickerCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330A2C31D515C3B1A1DDC6165F9215D3 /* VTImageFilterPickerCustom.swift */; };
+		6CCB8F076A18FF6BB3F0B9CF5878BB67 /* VTImageFilterPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C8490EA04CDB72E9D49A5846E26BAB /* VTImageFilterPicker.swift */; };
+		8B46E395C773DF5A9B5BFCA6538194BD /* UIView+Bounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADF6A09422D6D24A01C24D55896399A /* UIView+Bounce.swift */; };
+		A454AF191BD9160D490D504AC0C945F2 /* Array+Safe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A1695DAD6BFBE07D87F49E39CA805B /* Array+Safe.swift */; };
+		B5416854817EFDC4419E9418E93C5502 /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 590704EA0ECE325BFC0D8625C4FE4040 /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C5549A3CD9657E7F73E47155AC5B8A4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CC153A03F2726993246BAF82639B8136 /* VTImageFilterPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6E3F44CC557C31050D3BFD1ECB85F2D /* VTImageFilterPicker-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD7D314B73A854FE6AEBDCC16B992C7E /* UIView+Anchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9AC85A153646EF70ADB5B4F702CCD1 /* UIView+Anchor.swift */; };
+		DA3C139A3D76CAFF29D144063C8D20CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		DCB72738FC8F0F3FA7775A35DAB3755F /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E836952F826DAB74335F631B5357B37 /* Pods-Example-dummy.m */; };
+		F7111F1302DA5FC9F2DA95F63EB4BA94 /* VTFilterImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65F44175638E16761AFFF7EF9B17A97 /* VTFilterImageCell.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		DDB3B9148F6716D3F31EFD0FB085D6E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 101FBD91E60198F69007CBB5A60AD432;
+			remoteInfo = VTImageFilterPicker;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		0AECF4A22395C2FDE55673592687C1AB /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2C83BF6702F0C48A8D1C5A59935A2117 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5AC126EEC71A1BC407FE1D9DB3984EF4 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
-		5E15D590B55F6691EDEDA51338F8097A /* libPods-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Example.a"; path = "libPods-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09E64511F0EEC0F041579986DF208205 /* VTImageFilterPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VTImageFilterPicker.h; path = Source/Main/VTImageFilterPicker.h; sourceTree = "<group>"; };
+		0E836952F826DAB74335F631B5357B37 /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
+		169AAA55F49D391B163314B0FAE812B1 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
+		19CA99DB9E355BE0B52E6ED4621B7003 /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
+		2BA48CC2BA1F2D5BDB7A6F8A450B69A7 /* PaddingLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaddingLabel.swift; path = Source/CustomUI/PaddingLabel.swift; sourceTree = "<group>"; };
+		2BDD7FE9FDED70D09E112895C992BFCF /* Pods-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-resources.sh"; sourceTree = "<group>"; };
+		2DB9994FAFC22FA74EDEDCAF4675A8C1 /* libVTImageFilterPicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libVTImageFilterPicker.a; path = libVTImageFilterPicker.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		31A1695DAD6BFBE07D87F49E39CA805B /* Array+Safe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Safe.swift"; path = "Source/Extension/Array+Safe.swift"; sourceTree = "<group>"; };
+		330A2C31D515C3B1A1DDC6165F9215D3 /* VTImageFilterPickerCustom.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VTImageFilterPickerCustom.swift; path = Source/Main/VTImageFilterPickerCustom.swift; sourceTree = "<group>"; };
+		4ADF6A09422D6D24A01C24D55896399A /* UIView+Bounce.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Bounce.swift"; path = "Source/Extension/UIView+Bounce.swift"; sourceTree = "<group>"; };
+		590704EA0ECE325BFC0D8625C4FE4040 /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
+		645203A9C557B658E065464F51C722DB /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6508C278E8164D8FD5043028ED1A4A5B /* libPods-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Example.a"; path = "libPods-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		74D16BBB58D3D00FC3350B65437D5E18 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
-		7A17B2D7486AA2A9CFA43FE47668BC7C /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		853BB94042284CB4296D1239BE467FB0 /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
+		77C8490EA04CDB72E9D49A5846E26BAB /* VTImageFilterPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VTImageFilterPicker.swift; path = Source/Main/VTImageFilterPicker.swift; sourceTree = "<group>"; };
+		7A97E9B081868CEB54CEA1FCFB53CC4B /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7D9AC85A153646EF70ADB5B4F702CCD1 /* UIView+Anchor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Anchor.swift"; path = "Source/Extension/UIView+Anchor.swift"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C6E3D4A869A4034AC4D2D2194B92A7A0 /* Pods-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-resources.sh"; sourceTree = "<group>"; };
+		99A2A890DFEE11FBD6A699CF38099397 /* VTImageFilterPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VTImageFilterPicker.xcconfig; sourceTree = "<group>"; };
+		A65F44175638E16761AFFF7EF9B17A97 /* VTFilterImageCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VTFilterImageCell.swift; path = Source/Main/VTFilterImageCell.swift; sourceTree = "<group>"; };
+		A6E3F44CC557C31050D3BFD1ECB85F2D /* VTImageFilterPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "VTImageFilterPicker-umbrella.h"; path = "../../Headers/Public/VTImageFilterPicker/VTImageFilterPicker-umbrella.h"; sourceTree = "<group>"; };
+		A809C13E6E20B8DAA4FA2BF3CD5CC103 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
+		BEE4B15D9FAFDABB095AEB99C82EE83D /* VTImageFilterPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VTImageFilterPicker-dummy.m"; sourceTree = "<group>"; };
+		C142B37B129D5C1F2B9C766292C1FA4A /* VTImageFilterPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = VTImageFilterPicker.modulemap; path = ../../Headers/Public/VTImageFilterPicker/VTImageFilterPicker.modulemap; sourceTree = "<group>"; };
+		C88EA79029E5B46C2B35CD971E556D6B /* UIView+UnderLine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+UnderLine.swift"; path = "Source/Extension/UIView+UnderLine.swift"; sourceTree = "<group>"; };
+		E0AB74DC685C83754FBFFC75BD5AB6C6 /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F375D4D902A3CE15970201142380F848 /* VTImageFilterPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VTImageFilterPicker-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F40151264DFBCE103C9B340B50676CB7 /* Frameworks */ = {
+		1FC2B2A099C1C0956B9064791C4482AA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F8728B8C208D9F83BDA89F44E9D501F /* Foundation.framework in Frameworks */,
+				DA3C139A3D76CAFF29D144063C8D20CE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8FC90CB6F387C1C6792412F9DA669E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5549A3CD9657E7F73E47155AC5B8A4E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6C49482DA5D4F97709CE2787E2211CE4 /* Targets Support Files */ = {
+		38326314816A1B84C61B1DC7FB8817A2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6CFBBC142C9365C96B60AC636521AF01 /* Pods-Example */,
+				FA9F0921A28FC4DC655359C9003FAC8C /* VTImageFilterPicker */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3BFB1236E5F61C24E4383B2E5824E66B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				54DFD2DB92505726FACCA7110689BF33 /* Pods-Example */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		6CFBBC142C9365C96B60AC636521AF01 /* Pods-Example */ = {
+		54DFD2DB92505726FACCA7110689BF33 /* Pods-Example */ = {
 			isa = PBXGroup;
 			children = (
-				0AECF4A22395C2FDE55673592687C1AB /* Pods-Example-acknowledgements.markdown */,
-				7A17B2D7486AA2A9CFA43FE47668BC7C /* Pods-Example-acknowledgements.plist */,
-				853BB94042284CB4296D1239BE467FB0 /* Pods-Example-dummy.m */,
-				5AC126EEC71A1BC407FE1D9DB3984EF4 /* Pods-Example-frameworks.sh */,
-				C6E3D4A869A4034AC4D2D2194B92A7A0 /* Pods-Example-resources.sh */,
-				2C83BF6702F0C48A8D1C5A59935A2117 /* Pods-Example.debug.xcconfig */,
-				74D16BBB58D3D00FC3350B65437D5E18 /* Pods-Example.release.xcconfig */,
+				19CA99DB9E355BE0B52E6ED4621B7003 /* Pods-Example.modulemap */,
+				7A97E9B081868CEB54CEA1FCFB53CC4B /* Pods-Example-acknowledgements.markdown */,
+				E0AB74DC685C83754FBFFC75BD5AB6C6 /* Pods-Example-acknowledgements.plist */,
+				0E836952F826DAB74335F631B5357B37 /* Pods-Example-dummy.m */,
+				A809C13E6E20B8DAA4FA2BF3CD5CC103 /* Pods-Example-frameworks.sh */,
+				2BDD7FE9FDED70D09E112895C992BFCF /* Pods-Example-resources.sh */,
+				590704EA0ECE325BFC0D8625C4FE4040 /* Pods-Example-umbrella.h */,
+				645203A9C557B658E065464F51C722DB /* Pods-Example.debug.xcconfig */,
+				169AAA55F49D391B163314B0FAE812B1 /* Pods-Example.release.xcconfig */,
 			);
 			name = "Pods-Example";
 			path = "Target Support Files/Pods-Example";
+			sourceTree = "<group>";
+		};
+		784364609511DE5FD8D1EC4D53A4E129 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C142B37B129D5C1F2B9C766292C1FA4A /* VTImageFilterPicker.modulemap */,
+				99A2A890DFEE11FBD6A699CF38099397 /* VTImageFilterPicker.xcconfig */,
+				BEE4B15D9FAFDABB095AEB99C82EE83D /* VTImageFilterPicker-dummy.m */,
+				F375D4D902A3CE15970201142380F848 /* VTImageFilterPicker-prefix.pch */,
+				A6E3F44CC557C31050D3BFD1ECB85F2D /* VTImageFilterPicker-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/VTImageFilterPicker";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -64,8 +135,9 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				E9FF6C77EF6D53C41253D64223421BB1 /* Products */,
-				6C49482DA5D4F97709CE2787E2211CE4 /* Targets Support Files */,
+				38326314816A1B84C61B1DC7FB8817A2 /* Pods */,
+				E0B881F6AEAA1A2CEF035AA3AE8BC4D5 /* Products */,
+				3BFB1236E5F61C24E4383B2E5824E66B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,31 +157,90 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		E9FF6C77EF6D53C41253D64223421BB1 /* Products */ = {
+		E0B881F6AEAA1A2CEF035AA3AE8BC4D5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5E15D590B55F6691EDEDA51338F8097A /* libPods-Example.a */,
+				6508C278E8164D8FD5043028ED1A4A5B /* libPods-Example.a */,
+				2DB9994FAFC22FA74EDEDCAF4675A8C1 /* libVTImageFilterPicker.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
+		FA9F0921A28FC4DC655359C9003FAC8C /* VTImageFilterPicker */ = {
+			isa = PBXGroup;
+			children = (
+				31A1695DAD6BFBE07D87F49E39CA805B /* Array+Safe.swift */,
+				2BA48CC2BA1F2D5BDB7A6F8A450B69A7 /* PaddingLabel.swift */,
+				7D9AC85A153646EF70ADB5B4F702CCD1 /* UIView+Anchor.swift */,
+				4ADF6A09422D6D24A01C24D55896399A /* UIView+Bounce.swift */,
+				C88EA79029E5B46C2B35CD971E556D6B /* UIView+UnderLine.swift */,
+				A65F44175638E16761AFFF7EF9B17A97 /* VTFilterImageCell.swift */,
+				09E64511F0EEC0F041579986DF208205 /* VTImageFilterPicker.h */,
+				77C8490EA04CDB72E9D49A5846E26BAB /* VTImageFilterPicker.swift */,
+				330A2C31D515C3B1A1DDC6165F9215D3 /* VTImageFilterPickerCustom.swift */,
+				784364609511DE5FD8D1EC4D53A4E129 /* Support Files */,
+			);
+			name = VTImageFilterPicker;
+			path = VTImageFilterPicker;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		108D753E5A3BC8A635B82F98A29C084C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC153A03F2726993246BAF82639B8136 /* VTImageFilterPicker-umbrella.h in Headers */,
+				4374C63D9565E8A8CBBED4BF584FA355 /* VTImageFilterPicker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3BEDD47EEB92E8373BE92923649D1E1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5416854817EFDC4419E9418E93C5502 /* Pods-Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		EFB93B8B983838F052585444CAE09C41 /* Pods-Example */ = {
+		101FBD91E60198F69007CBB5A60AD432 /* VTImageFilterPicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 95BA1BA7BB6FB545566C4B7293C88254 /* Build configuration list for PBXNativeTarget "Pods-Example" */;
+			buildConfigurationList = B7DEFA0208FBE3E08B2B51BE8F767EEC /* Build configuration list for PBXNativeTarget "VTImageFilterPicker" */;
 			buildPhases = (
-				E8B96AD32C88CB9D6A991CD55783024B /* Sources */,
-				F40151264DFBCE103C9B340B50676CB7 /* Frameworks */,
+				27645EED3B82BEB0BA1F1C30B7EB3821 /* Sources */,
+				D8FC90CB6F387C1C6792412F9DA669E5 /* Frameworks */,
+				108D753E5A3BC8A635B82F98A29C084C /* Headers */,
+				6F7A916AD9FB328AC83335DE5A0D80A9 /* Copy generated compatibility header */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = VTImageFilterPicker;
+			productName = VTImageFilterPicker;
+			productReference = 2DB9994FAFC22FA74EDEDCAF4675A8C1 /* libVTImageFilterPicker.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C4EACA38EF977549843913E09721E834 /* Pods-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16081973B53C903D6692DF2DB4BF5F87 /* Build configuration list for PBXNativeTarget "Pods-Example" */;
+			buildPhases = (
+				117C4A640E9FD158474A0A41B5807151 /* Sources */,
+				1FC2B2A099C1C0956B9064791C4482AA /* Frameworks */,
+				A3BEDD47EEB92E8373BE92923649D1E1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3B9C1A5A22D77BE2DC9DBBCA744A053 /* PBXTargetDependency */,
+			);
 			name = "Pods-Example";
 			productName = "Pods-Example";
-			productReference = 5E15D590B55F6691EDEDA51338F8097A /* libPods-Example.a */;
+			productReference = 6508C278E8164D8FD5043028ED1A4A5B /* libPods-Example.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -129,25 +260,75 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = E9FF6C77EF6D53C41253D64223421BB1 /* Products */;
+			productRefGroup = E0B881F6AEAA1A2CEF035AA3AE8BC4D5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EFB93B8B983838F052585444CAE09C41 /* Pods-Example */,
+				C4EACA38EF977549843913E09721E834 /* Pods-Example */,
+				101FBD91E60198F69007CBB5A60AD432 /* VTImageFilterPicker */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6F7A916AD9FB328AC83335DE5A0D80A9 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/VTImageFilterPicker/VTImageFilterPicker.modulemap",
+				"${PODS_ROOT}/Headers/Public/VTImageFilterPicker/VTImageFilterPicker-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/VTImageFilterPicker-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/VTImageFilterPicker/VTImageFilterPicker.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/VTImageFilterPicker/VTImageFilterPicker-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+			showEnvVarsInLog = 1;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		E8B96AD32C88CB9D6A991CD55783024B /* Sources */ = {
+		117C4A640E9FD158474A0A41B5807151 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				400D6F48F478D724333EB2F433CB61E2 /* Pods-Example-dummy.m in Sources */,
+				DCB72738FC8F0F3FA7775A35DAB3755F /* Pods-Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27645EED3B82BEB0BA1F1C30B7EB3821 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A454AF191BD9160D490D504AC0C945F2 /* Array+Safe.swift in Sources */,
+				24D0DC34DF1098853BEA4DD466FDD890 /* PaddingLabel.swift in Sources */,
+				CD7D314B73A854FE6AEBDCC16B992C7E /* UIView+Anchor.swift in Sources */,
+				8B46E395C773DF5A9B5BFCA6538194BD /* UIView+Bounce.swift in Sources */,
+				0A7F6F9AFD09D3F80874F0D00C5D8383 /* UIView+UnderLine.swift in Sources */,
+				F7111F1302DA5FC9F2DA95F63EB4BA94 /* VTFilterImageCell.swift in Sources */,
+				1079B3DB1167387C646A651905037DF2 /* VTImageFilterPicker-dummy.m in Sources */,
+				6CCB8F076A18FF6BB3F0B9CF5878BB67 /* VTImageFilterPicker.swift in Sources */,
+				60F96B978C3F09ABCCF520C603CFCAED /* VTImageFilterPickerCustom.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3B9C1A5A22D77BE2DC9DBBCA744A053 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VTImageFilterPicker;
+			target = 101FBD91E60198F69007CBB5A60AD432 /* VTImageFilterPicker */;
+			targetProxy = DDB3B9148F6716D3F31EFD0FB085D6E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		691EE0234A3BA1A3B057D3A4C23C9CCC /* Debug */ = {
@@ -271,9 +452,9 @@
 			};
 			name = Release;
 		};
-		98B3D7EEE4520D7C8919813F242E39CB /* Release */ = {
+		76E2EF9734A06CAA07320F101AC66288 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 74D16BBB58D3D00FC3350B65437D5E18 /* Pods-Example.release.xcconfig */;
+			baseConfigurationReference = 645203A9C557B658E065464F51C722DB /* Pods-Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -283,35 +464,93 @@
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Example/Pods-Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9EAC338DC83D2E55082A8C78F87448DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 169AAA55F49D391B163314B0FAE812B1 /* Pods-Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Example/Pods-Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		ED422D49611C709FB0BBA9D0705A845F /* Debug */ = {
+		BBFBC69F86AE741E5E153CFEC986923C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C83BF6702F0C48A8D1C5A59935A2117 /* Pods-Example.debug.xcconfig */;
+			baseConfigurationReference = 99A2A890DFEE11FBD6A699CF38099397 /* VTImageFilterPicker.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				MACH_O_TYPE = staticlib;
+				GCC_PREFIX_HEADER = "Target Support Files/VTImageFilterPicker/VTImageFilterPicker-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = Headers/Public/VTImageFilterPicker/VTImageFilterPicker.modulemap;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = VTImageFilterPicker;
+				PRODUCT_NAME = VTImageFilterPicker;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C640ACE8DC2BF35286B566BB888F3F89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99A2A890DFEE11FBD6A699CF38099397 /* VTImageFilterPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/VTImageFilterPicker/VTImageFilterPicker-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = Headers/Public/VTImageFilterPicker/VTImageFilterPicker.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = VTImageFilterPicker;
+				PRODUCT_NAME = VTImageFilterPicker;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -319,6 +558,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		16081973B53C903D6692DF2DB4BF5F87 /* Build configuration list for PBXNativeTarget "Pods-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76E2EF9734A06CAA07320F101AC66288 /* Debug */,
+				9EAC338DC83D2E55082A8C78F87448DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -328,11 +576,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		95BA1BA7BB6FB545566C4B7293C88254 /* Build configuration list for PBXNativeTarget "Pods-Example" */ = {
+		B7DEFA0208FBE3E08B2B51BE8F767EEC /* Build configuration list for PBXNativeTarget "VTImageFilterPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ED422D49611C709FB0BBA9D0705A845F /* Debug */,
-				98B3D7EEE4520D7C8919813F242E39CB /* Release */,
+				C640ACE8DC2BF35286B566BB888F3F89 /* Debug */,
+				BBFBC69F86AE741E5E153CFEC986923C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

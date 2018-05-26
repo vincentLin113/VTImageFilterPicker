@@ -47,6 +47,8 @@ class ViewController: UIViewController {
     
 }
 
+//MARK: - Implement UITableViewDelegate, UITableViewDataSource
+
 extension ViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -118,6 +120,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     
 }
 
+//MARK: - Implement VTImageFilterPickerDelegate
 
 extension ViewController: VTImageFilterPickerDelegate {
     
@@ -126,6 +129,14 @@ extension ViewController: VTImageFilterPickerDelegate {
         pickViewController.dismiss(animated: true) {
             self.tableView.reloadData()
         }
+    }
+    
+    func pickerDidDismiss(pickViewController: VTImageFilterPicker, selectedButton: UIButton) {
+        // handle picker did dismiss
+    }
+    
+    func pickerWillDismiss(pickViewController: VTImageFilterPicker, selectedButton: UIButton) {
+        // handle picker will dismiss
     }
     
 }
