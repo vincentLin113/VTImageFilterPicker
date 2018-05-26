@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A7F6F9AFD09D3F80874F0D00C5D8383 /* UIView+UnderLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88EA79029E5B46C2B35CD971E556D6B /* UIView+UnderLine.swift */; };
-		1079B3DB1167387C646A651905037DF2 /* VTImageFilterPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE4B15D9FAFDABB095AEB99C82EE83D /* VTImageFilterPicker-dummy.m */; };
-		24D0DC34DF1098853BEA4DD466FDD890 /* PaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA48CC2BA1F2D5BDB7A6F8A450B69A7 /* PaddingLabel.swift */; };
-		4374C63D9565E8A8CBBED4BF584FA355 /* VTImageFilterPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 09E64511F0EEC0F041579986DF208205 /* VTImageFilterPicker.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		60F96B978C3F09ABCCF520C603CFCAED /* VTImageFilterPickerCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330A2C31D515C3B1A1DDC6165F9215D3 /* VTImageFilterPickerCustom.swift */; };
-		6CCB8F076A18FF6BB3F0B9CF5878BB67 /* VTImageFilterPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C8490EA04CDB72E9D49A5846E26BAB /* VTImageFilterPicker.swift */; };
-		8B46E395C773DF5A9B5BFCA6538194BD /* UIView+Bounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADF6A09422D6D24A01C24D55896399A /* UIView+Bounce.swift */; };
-		A454AF191BD9160D490D504AC0C945F2 /* Array+Safe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A1695DAD6BFBE07D87F49E39CA805B /* Array+Safe.swift */; };
+		0A7F6F9AFD09D3F80874F0D00C5D8383 /* UIView+UnderLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF033CA751BE5606BDC632825D869A4 /* UIView+UnderLine.swift */; };
+		1079B3DB1167387C646A651905037DF2 /* VTImageFilterPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC88A0BE8094799B50E4A91CE73D79E /* VTImageFilterPicker-dummy.m */; };
+		24D0DC34DF1098853BEA4DD466FDD890 /* PaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BC780492B34FA0DCA2B036756158E1 /* PaddingLabel.swift */; };
+		4374C63D9565E8A8CBBED4BF584FA355 /* VTImageFilterPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FBC741D0C9A9F8519FCC8CFCDC6E653 /* VTImageFilterPicker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		60F96B978C3F09ABCCF520C603CFCAED /* VTImageFilterPickerCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F280D45CF1077E7274860975386C6C /* VTImageFilterPickerCustom.swift */; };
+		6CCB8F076A18FF6BB3F0B9CF5878BB67 /* VTImageFilterPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE39B164C35BBE6D1284032D2970F0A /* VTImageFilterPicker.swift */; };
+		8B46E395C773DF5A9B5BFCA6538194BD /* UIView+Bounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B80240DE752D5F9EE75ECA68B2A472D /* UIView+Bounce.swift */; };
+		A454AF191BD9160D490D504AC0C945F2 /* Array+Safe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7211663AA0200DAF6DF9E3FDAE1C756A /* Array+Safe.swift */; };
 		B5416854817EFDC4419E9418E93C5502 /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 590704EA0ECE325BFC0D8625C4FE4040 /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C5549A3CD9657E7F73E47155AC5B8A4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		CC153A03F2726993246BAF82639B8136 /* VTImageFilterPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6E3F44CC557C31050D3BFD1ECB85F2D /* VTImageFilterPicker-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CD7D314B73A854FE6AEBDCC16B992C7E /* UIView+Anchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9AC85A153646EF70ADB5B4F702CCD1 /* UIView+Anchor.swift */; };
+		CC153A03F2726993246BAF82639B8136 /* VTImageFilterPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4AD87F1096533B217BECF0BBB38F076 /* VTImageFilterPicker-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD7D314B73A854FE6AEBDCC16B992C7E /* UIView+Anchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7A5184623E97AF8E4F18DEBA6EA844 /* UIView+Anchor.swift */; };
 		DA3C139A3D76CAFF29D144063C8D20CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		DCB72738FC8F0F3FA7775A35DAB3755F /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E836952F826DAB74335F631B5357B37 /* Pods-Example-dummy.m */; };
-		F7111F1302DA5FC9F2DA95F63EB4BA94 /* VTFilterImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65F44175638E16761AFFF7EF9B17A97 /* VTFilterImageCell.swift */; };
+		F7111F1302DA5FC9F2DA95F63EB4BA94 /* VTFilterImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E79FEC991C701E1D4D4D18FA415031 /* VTFilterImageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,33 +35,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09E64511F0EEC0F041579986DF208205 /* VTImageFilterPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VTImageFilterPicker.h; path = Source/Main/VTImageFilterPicker.h; sourceTree = "<group>"; };
+		05B1973DF3237BFE4F1FDFDE8E0A943E /* VTImageFilterPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VTImageFilterPicker-prefix.pch"; sourceTree = "<group>"; };
+		068ACAA1901A64848E2754CA6D4A557B /* VTImageFilterPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = VTImageFilterPicker.modulemap; path = ../../Headers/Public/VTImageFilterPicker/VTImageFilterPicker.modulemap; sourceTree = "<group>"; };
 		0E836952F826DAB74335F631B5357B37 /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
 		169AAA55F49D391B163314B0FAE812B1 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 		19CA99DB9E355BE0B52E6ED4621B7003 /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
-		2BA48CC2BA1F2D5BDB7A6F8A450B69A7 /* PaddingLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaddingLabel.swift; path = Source/CustomUI/PaddingLabel.swift; sourceTree = "<group>"; };
+		22A4C03E50FCF80255047A0BB1D2429D /* VTImageFilterPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VTImageFilterPicker.xcconfig; sourceTree = "<group>"; };
+		27E79FEC991C701E1D4D4D18FA415031 /* VTFilterImageCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VTFilterImageCell.swift; path = Source/Main/VTFilterImageCell.swift; sourceTree = "<group>"; };
+		2B80240DE752D5F9EE75ECA68B2A472D /* UIView+Bounce.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Bounce.swift"; path = "Source/Extension/UIView+Bounce.swift"; sourceTree = "<group>"; };
 		2BDD7FE9FDED70D09E112895C992BFCF /* Pods-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-resources.sh"; sourceTree = "<group>"; };
 		2DB9994FAFC22FA74EDEDCAF4675A8C1 /* libVTImageFilterPicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libVTImageFilterPicker.a; path = libVTImageFilterPicker.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		31A1695DAD6BFBE07D87F49E39CA805B /* Array+Safe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Safe.swift"; path = "Source/Extension/Array+Safe.swift"; sourceTree = "<group>"; };
-		330A2C31D515C3B1A1DDC6165F9215D3 /* VTImageFilterPickerCustom.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VTImageFilterPickerCustom.swift; path = Source/Main/VTImageFilterPickerCustom.swift; sourceTree = "<group>"; };
-		4ADF6A09422D6D24A01C24D55896399A /* UIView+Bounce.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Bounce.swift"; path = "Source/Extension/UIView+Bounce.swift"; sourceTree = "<group>"; };
+		30F280D45CF1077E7274860975386C6C /* VTImageFilterPickerCustom.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VTImageFilterPickerCustom.swift; path = Source/Main/VTImageFilterPickerCustom.swift; sourceTree = "<group>"; };
 		590704EA0ECE325BFC0D8625C4FE4040 /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
+		5FBC741D0C9A9F8519FCC8CFCDC6E653 /* VTImageFilterPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VTImageFilterPicker.h; path = Source/Main/VTImageFilterPicker.h; sourceTree = "<group>"; };
 		645203A9C557B658E065464F51C722DB /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6508C278E8164D8FD5043028ED1A4A5B /* libPods-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Example.a"; path = "libPods-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		77C8490EA04CDB72E9D49A5846E26BAB /* VTImageFilterPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VTImageFilterPicker.swift; path = Source/Main/VTImageFilterPicker.swift; sourceTree = "<group>"; };
+		6EF033CA751BE5606BDC632825D869A4 /* UIView+UnderLine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+UnderLine.swift"; path = "Source/Extension/UIView+UnderLine.swift"; sourceTree = "<group>"; };
+		7211663AA0200DAF6DF9E3FDAE1C756A /* Array+Safe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Safe.swift"; path = "Source/Extension/Array+Safe.swift"; sourceTree = "<group>"; };
 		7A97E9B081868CEB54CEA1FCFB53CC4B /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7D9AC85A153646EF70ADB5B4F702CCD1 /* UIView+Anchor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Anchor.swift"; path = "Source/Extension/UIView+Anchor.swift"; sourceTree = "<group>"; };
+		8EC88A0BE8094799B50E4A91CE73D79E /* VTImageFilterPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VTImageFilterPicker-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		99A2A890DFEE11FBD6A699CF38099397 /* VTImageFilterPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VTImageFilterPicker.xcconfig; sourceTree = "<group>"; };
-		A65F44175638E16761AFFF7EF9B17A97 /* VTFilterImageCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VTFilterImageCell.swift; path = Source/Main/VTFilterImageCell.swift; sourceTree = "<group>"; };
-		A6E3F44CC557C31050D3BFD1ECB85F2D /* VTImageFilterPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "VTImageFilterPicker-umbrella.h"; path = "../../Headers/Public/VTImageFilterPicker/VTImageFilterPicker-umbrella.h"; sourceTree = "<group>"; };
+		9D7A5184623E97AF8E4F18DEBA6EA844 /* UIView+Anchor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Anchor.swift"; path = "Source/Extension/UIView+Anchor.swift"; sourceTree = "<group>"; };
 		A809C13E6E20B8DAA4FA2BF3CD5CC103 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
-		BEE4B15D9FAFDABB095AEB99C82EE83D /* VTImageFilterPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VTImageFilterPicker-dummy.m"; sourceTree = "<group>"; };
-		C142B37B129D5C1F2B9C766292C1FA4A /* VTImageFilterPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = VTImageFilterPicker.modulemap; path = ../../Headers/Public/VTImageFilterPicker/VTImageFilterPicker.modulemap; sourceTree = "<group>"; };
-		C88EA79029E5B46C2B35CD971E556D6B /* UIView+UnderLine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+UnderLine.swift"; path = "Source/Extension/UIView+UnderLine.swift"; sourceTree = "<group>"; };
+		D4AD87F1096533B217BECF0BBB38F076 /* VTImageFilterPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "VTImageFilterPicker-umbrella.h"; path = "../../Headers/Public/VTImageFilterPicker/VTImageFilterPicker-umbrella.h"; sourceTree = "<group>"; };
+		D83637D5AB35BCF57B1E16DD9D22F7B7 /* VTAssets.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = VTAssets.bundle; path = Source/VTAssets.bundle; sourceTree = "<group>"; };
+		DCE39B164C35BBE6D1284032D2970F0A /* VTImageFilterPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VTImageFilterPicker.swift; path = Source/Main/VTImageFilterPicker.swift; sourceTree = "<group>"; };
 		E0AB74DC685C83754FBFFC75BD5AB6C6 /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F375D4D902A3CE15970201142380F848 /* VTImageFilterPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VTImageFilterPicker-prefix.pch"; sourceTree = "<group>"; };
+		F9BC780492B34FA0DCA2B036756158E1 /* PaddingLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaddingLabel.swift; path = Source/CustomUI/PaddingLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,10 +85,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		38326314816A1B84C61B1DC7FB8817A2 /* Pods */ = {
+		14887F648B913ED59261B90535691449 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FA9F0921A28FC4DC655359C9003FAC8C /* VTImageFilterPicker */,
+				B8FE8E11C6124E592DE432957D07D899 /* VTImageFilterPicker */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -117,14 +118,14 @@
 			path = "Target Support Files/Pods-Example";
 			sourceTree = "<group>";
 		};
-		784364609511DE5FD8D1EC4D53A4E129 /* Support Files */ = {
+		6FC1676EF5955652AC7486179030D804 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C142B37B129D5C1F2B9C766292C1FA4A /* VTImageFilterPicker.modulemap */,
-				99A2A890DFEE11FBD6A699CF38099397 /* VTImageFilterPicker.xcconfig */,
-				BEE4B15D9FAFDABB095AEB99C82EE83D /* VTImageFilterPicker-dummy.m */,
-				F375D4D902A3CE15970201142380F848 /* VTImageFilterPicker-prefix.pch */,
-				A6E3F44CC557C31050D3BFD1ECB85F2D /* VTImageFilterPicker-umbrella.h */,
+				068ACAA1901A64848E2754CA6D4A557B /* VTImageFilterPicker.modulemap */,
+				22A4C03E50FCF80255047A0BB1D2429D /* VTImageFilterPicker.xcconfig */,
+				8EC88A0BE8094799B50E4A91CE73D79E /* VTImageFilterPicker-dummy.m */,
+				05B1973DF3237BFE4F1FDFDE8E0A943E /* VTImageFilterPicker-prefix.pch */,
+				D4AD87F1096533B217BECF0BBB38F076 /* VTImageFilterPicker-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/VTImageFilterPicker";
@@ -135,10 +136,37 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				38326314816A1B84C61B1DC7FB8817A2 /* Pods */,
+				14887F648B913ED59261B90535691449 /* Pods */,
 				E0B881F6AEAA1A2CEF035AA3AE8BC4D5 /* Products */,
 				3BFB1236E5F61C24E4383B2E5824E66B /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		B5577792656FDC02392FEA327A1CCEFB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D83637D5AB35BCF57B1E16DD9D22F7B7 /* VTAssets.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B8FE8E11C6124E592DE432957D07D899 /* VTImageFilterPicker */ = {
+			isa = PBXGroup;
+			children = (
+				7211663AA0200DAF6DF9E3FDAE1C756A /* Array+Safe.swift */,
+				F9BC780492B34FA0DCA2B036756158E1 /* PaddingLabel.swift */,
+				9D7A5184623E97AF8E4F18DEBA6EA844 /* UIView+Anchor.swift */,
+				2B80240DE752D5F9EE75ECA68B2A472D /* UIView+Bounce.swift */,
+				6EF033CA751BE5606BDC632825D869A4 /* UIView+UnderLine.swift */,
+				27E79FEC991C701E1D4D4D18FA415031 /* VTFilterImageCell.swift */,
+				5FBC741D0C9A9F8519FCC8CFCDC6E653 /* VTImageFilterPicker.h */,
+				DCE39B164C35BBE6D1284032D2970F0A /* VTImageFilterPicker.swift */,
+				30F280D45CF1077E7274860975386C6C /* VTImageFilterPickerCustom.swift */,
+				B5577792656FDC02392FEA327A1CCEFB /* Resources */,
+				6FC1676EF5955652AC7486179030D804 /* Support Files */,
+			);
+			name = VTImageFilterPicker;
+			path = VTImageFilterPicker;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -164,24 +192,6 @@
 				2DB9994FAFC22FA74EDEDCAF4675A8C1 /* libVTImageFilterPicker.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		FA9F0921A28FC4DC655359C9003FAC8C /* VTImageFilterPicker */ = {
-			isa = PBXGroup;
-			children = (
-				31A1695DAD6BFBE07D87F49E39CA805B /* Array+Safe.swift */,
-				2BA48CC2BA1F2D5BDB7A6F8A450B69A7 /* PaddingLabel.swift */,
-				7D9AC85A153646EF70ADB5B4F702CCD1 /* UIView+Anchor.swift */,
-				4ADF6A09422D6D24A01C24D55896399A /* UIView+Bounce.swift */,
-				C88EA79029E5B46C2B35CD971E556D6B /* UIView+UnderLine.swift */,
-				A65F44175638E16761AFFF7EF9B17A97 /* VTFilterImageCell.swift */,
-				09E64511F0EEC0F041579986DF208205 /* VTImageFilterPicker.h */,
-				77C8490EA04CDB72E9D49A5846E26BAB /* VTImageFilterPicker.swift */,
-				330A2C31D515C3B1A1DDC6165F9215D3 /* VTImageFilterPickerCustom.swift */,
-				784364609511DE5FD8D1EC4D53A4E129 /* Support Files */,
-			);
-			name = VTImageFilterPicker;
-			path = VTImageFilterPicker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -504,7 +514,7 @@
 		};
 		BBFBC69F86AE741E5E153CFEC986923C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 99A2A890DFEE11FBD6A699CF38099397 /* VTImageFilterPicker.xcconfig */;
+			baseConfigurationReference = 22A4C03E50FCF80255047A0BB1D2429D /* VTImageFilterPicker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -531,7 +541,7 @@
 		};
 		C640ACE8DC2BF35286B566BB888F3F89 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 99A2A890DFEE11FBD6A699CF38099397 /* VTImageFilterPicker.xcconfig */;
+			baseConfigurationReference = 22A4C03E50FCF80255047A0BB1D2429D /* VTImageFilterPicker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

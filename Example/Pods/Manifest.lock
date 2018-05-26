@@ -1,5 +1,5 @@
 PODS:
-  - VTImageFilterPicker (1.0.4)
+  - VTImageFilterPicker (1.0.5)
 
 DEPENDENCIES:
   - VTImageFilterPicker
@@ -9,7 +9,7 @@ SPEC REPOS:
     - VTImageFilterPicker
 
 SPEC CHECKSUMS:
-  VTImageFilterPicker: cd55b3004b76213da98481afaca38e991f6deb54
+  VTImageFilterPicker: 99660f935d571b0cd61c665a3ae92dfbc4d3172f
 
 PODFILE CHECKSUM: fb7b09c2ad96413fa807b395adbc05397f2420e2
 
