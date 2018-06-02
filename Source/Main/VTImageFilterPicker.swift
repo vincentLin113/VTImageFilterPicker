@@ -396,8 +396,10 @@ private extension VTImageFilterPicker {
     
     func scrollToTargetIndexPath(_ indexPath: IndexPath) {
         if indexPath.section != 0 { return }
-        if indexPath.row <= filterImagesCollectionView.numberOfItems(inSection: indexPath.section) {
-            filterImagesCollectionView.selectItem(at: indexPath, animated: true, scrollPosition: .centeredHorizontally)
+        DispatchQueue.main.async {
+            if indexPath.row <= self.filterImagesCollectionView.numberOfItems(inSection: indexPath.section) {
+                self.filterImagesCollectionView.selectItem(at: indexPath, animated: true, scrollPosition: .centeredHorizontally)
+            }
         }
     }
 
@@ -518,12 +520,14 @@ extension VTImageFilterPicker: UICollectionViewDelegate {
         if indexPath.section != 0 { return }
         assert(indexPath.item < filterNameList.count, "error")
         if let selectedFilterName = filterNameList[safe: indexPath.row] {
-            currentIndexOfAppliedFilter = indexPath.item
-            applyFilterAndUpdateImageView(selectedFilterName)
-            let cell = collectionView.cellForItem(at: indexPath)
-            cell?.bounce()
-            if indexPath.item < collectionView.numberOfItems(inSection: indexPath.section) {
-                scrollToTargetIndexPath(indexPath)
+            DispatchQueue.main.async {
+                self.currentIndexOfAppliedFilter = indexPath.item
+                self.applyFilterAndUpdateImageView(selectedFilterName)
+                let cell = collectionView.cellForItem(at: indexPath)
+                cell?.bounce()
+                if indexPath.item < collectionView.numberOfItems(inSection: indexPath.section) {
+                    self.scrollToTargetIndexPath(indexPath)
+                }
             }
         }
     }
