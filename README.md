@@ -1,5 +1,6 @@
 # VTImageFilterPicker
 ![Swift](http://img.shields.io/badge/swift-4.0-brightgreen.svg)
+[![Cocoapods Compatible](https://img.shields.io/cocoapods/v/VTImageFilterPicker.svg?style=flat)](https://cocoapods.org/pods/VTImageFilterPicker)
 
 Simple ImageFilterPicker inspired by Instagram written by swift.
 
