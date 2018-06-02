@@ -1,8 +1,10 @@
 # VTImageFilterPicker
 ![Swift](http://img.shields.io/badge/swift-4.0-brightgreen.svg)
-[![Cocoapods Compatible](https://img.shields.io/cocoapods/v/SKPhotoBrowser.svg?style=flat)](http://cocoadocs.org/docsets/SKPhotoBrowser)
 
-Simple ImageFilterPicker inspired by Instagram written by swift
+Simple ImageFilterPicker inspired by Instagram written by swift.
+
+![sample](https://raw.githubusercontent.com/vincentLin113/VTImageFilterPicker/master/Screenshot/Screenshot1.gif)
+
 ## features
 - Ability to custom control
 - Lighten
